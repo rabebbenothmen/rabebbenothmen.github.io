@@ -46,7 +46,7 @@ Donc on peux afficher l'une des images de jeu des données d'apprentissage avec 
 plt.imshow (x_train [img_index])
 ```
 
-![alt text](https://rabebbenothmen.github.io/imagevisualise.png "imagevisualisé")
+![alt text](https://rabebbenothmen.github.io/image/imagevisualise.png "imagevisualisé")
 #### Normalisation des données
 Nous normalisons ensuite les dimensions des données pour qu'elles aient approximativement la même échelle.
 ```python
