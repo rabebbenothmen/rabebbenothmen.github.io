@@ -133,5 +133,5 @@ for i in range(25):
                                   color=color)
 ```
 
-![alt text](https://rabebbenothmen.github.io/image/res.png "res")
+![alt text](https://github.com/rabebbenothmen/rabebbenothmen.github.io/tree/master/image/res.png "res")
 
