@@ -46,7 +46,7 @@ Donc on peux afficher l'une des images de jeu des données d'apprentissage avec 
 plt.imshow (x_train [img_index])
 ```
 
-![alt text](http://127.0.0.1:4000/image/imagevisualise.png "imagevisualisé")
+![alt text](https://rabebbenothmen.github.io/imagevisualise.png "imagevisualisé")
 #### Normalisation des données
 Nous normalisons ensuite les dimensions des données pour qu'elles aient approximativement la même échelle.
 ```python
@@ -82,7 +82,7 @@ model.compile (loss = 'categorical_crossentropy',
 ```python
 model.fit(x_train,  y_train, batch_size=10, epochs=10)
 ```
-![alt text](http://127.0.0.1:4000/image/compilation.png "compilation")
+![alt text](https://rabebbenothmen.github.io/image/compilation.png "compilation")
 
 
 #### Exactitude du test
@@ -97,7 +97,7 @@ impression ('\ n', 'Exactitude du test:', note [1])
 ```python
 print('\n', 'Test accuracy:', score[1])
 ```
-![alt text](http://127.0.0.1:4000/image/tauxtest.png "tauxtest")
+![alt text](https://rabebbenothmen.github.io/image/tauxtest.png "tauxtest")
 
 
 #### Visualisez les prédictions
@@ -133,5 +133,5 @@ for i in range(25):
                                   color=color)
 ```
 
-![alt text](http://127.0.0.1:4000/image/res.png "res")
+![alt text](https://rabebbenothmen.github.io/image/res.png "res")
 
